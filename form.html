@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: 'Oswald', sans-serif;
+        /* background-image: url("photo-1579546929518-9e396f3cc809.jpg"); */
+        background: linear-gradient(
+          to bottom right,
+          rgba(0, 0, 255, 0.4),
+          rgb(255, 192, 203)
+        );
+      }
+      form {
+        /* margin: 3% 40%; */
+        padding: 0px 5% 2%;
+        border: 3px solid black;
+        /* display: inline-block; */
+        width: 13rem;
+        margin: 2rem auto;
+      }
+
+      input {
+        background: rgba(0, 0, 255, 0.322);
+        border-radius: 10px;
+        border: none;
+      }
+      label {
+        text-align: left;
+        color: purple;
+        font-weight: bold;
+        font-size: x-large;
+      }
+      h1 {
+        text-align: center;
+      }
+
+      .radio {
+        color: purple;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Registration Form</h1>
+      <br />
+      <label>First Name</label>
+      <input type="text" name="firstName" />
+      <br />
+      <label>Last Name</label>
+      <input type="text" name="lastName" />
+      <br />
+      <label for="first">Email</label>
+      <input type="email" name="email" id="first" />
+      <br />
+      <label> Phone</label>
+      <input type="text" name="firstName" />
+      <br />
+      <label>Gender</label>
+      <br />
+      <div class="radio">
+        <input type="radio" name="gender" value="male" id="gen" />Male
+        <input type="radio" name="gender" value="female" id="gen" />Female
+        <input type="radio" name="gender" value="other" id="gen" />Other
+      </div>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

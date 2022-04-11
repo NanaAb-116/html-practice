@@ -1,0 +1,35 @@
+body {
+  /* background-image: url("/photo-1579546929518-9e396f3cc809.jpg"); */
+}
+body {
+  background-color: rgba(49, 241, 255, 0.541);
+}
+.list {
+  font-size: 30px;
+}
+#first {
+  text-align: center;
+  color: purple;
+  font-size: 4em;
+}
+.second {
+  text-align: center;
+  font-size: 3em;
+}
+#about {
+  font-size: 50px;
+  color: yellow;
+  text-align: center;
+}
+img {
+  height: 25vh;
+  width: 10vw;
+  margin-top: 10px;
+  padding: 10px;
+}
+ul {
+  text-align: left;
+  /* margin: 0px 80% 0px 0px; */
+  padding: 0px 2%;
+  display: inline-block;
+}
